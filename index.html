@@ -15,11 +15,14 @@
             }
             p {
                 font-size: 30px;
+                kommentar: Diesen Code habe ich aus dem Internet;
             }
             h2 {
                 font-size: 35px;
             }
         </style>
+
+        <h2></h2>
     </head>
 
     <body>
@@ -40,6 +43,9 @@
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
                 </li>
+                <li>
+                    <a href="./pages/traum.html">Meine Träume</a>
+                </li>
             </ul>
         </nav>
 
@@ -58,14 +64,21 @@
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
                     Hallo ich heisse Lia und bin 15 Jahre alt . Ich gehe seit
-                    August auf das Gymnasuim Muttenz. Ich wohne mit meiner
-                    Mutter in Muttenz und Mein Vater wohnt Im Knaton Aargau.
-                    Früher habe ich in Rickenbach BL gewohnt und bin bis zur
-                    ersten Klasse dort zur Schule gegengane. Ich habe einen
-                    grossen Bruder, namens Jason. Er ist 2 Jahre älter als ich
-                    und geht an die FMS.
+                    August auf das Gymnasuim Muttenz. Meine Sekundarschulzeit,
+                    habe ich ebenfalls in Muttenz absolviert. Ich wohne mit
+                    meiner Mutter in Muttenz und Mein Vater wohnt Im Kanton
+                    Aargau. Früher habe ich in Rickenbach BL gewohnt und bin bis
+                    zur ersten Klasse dort zur Schule gegengane. Ich habe einen
+                    grossen Bruder, zu dem ich ein sehr gutes Verhältniss habe.
+                    Sein namen ist Jason. Er ist 2 Jahre älter als ich und geht
+                    an die FMS.
                 </p>
-                <p>Ich bin sehr</p>
+                <p>
+                    Seit ich klein bin wollte ich schon immer Psychologin
+                    werden. Ich weiss nicht mehr genau, wie dieser Gedanke
+                    enstanden ist, doch mein Ziel ist es irgendwann als
+                    Psychologin zu Arbeiten.
+                </p>
             </section>
 
             <section>
@@ -92,13 +105,35 @@
                             besseres Leben zu ermöglichen. Ich habe eine Katze
                             die 21 Jahre alt ist. Ich bin mit ihr aufgewachsen.
                             Ich hatte einen Hund, doch er ist letzen Monat
-                            gestorben.
+                            leider gestorben.
                         </p>
                     </div>
+
                     <div class="image">
                         <img src="/public/img/Baouse.jpg" alt="" />
                     </div>
                 </div>
+                <svg height="300" width="300">
+                    <circle cx="150" cy="150" r="50" />
+                </svg>
+                <svg height="300" width="300">
+                    <ellipse cx="150" cy="150" rx="50" ry="50" fill="blue">
+                        <animate
+                            attributeName="ry"
+                            values="50;25;50"
+                            dur="1s"
+                            repeatCount="indefinite"
+                        />
+                    </ellipse>
+                </svg>
+                <svg height="400" width="300">
+                    <path
+                        fill="transparent"
+                        stroke="darkblue"
+                        stroke-width="5"
+                        d="M 100 200 L 200 200 L 150 100 Z"
+                    />
+                </svg>
             </section>
         </main>
 
